@@ -36,5 +36,19 @@ namespace StaticExcercise
             Console.WriteLine("To Convert from Fahrenheit to Celcius type the letter 'f'");
             Console.WriteLine();
         }
+
+        public static void ShowConvertedFahrenheitTemp(double convertedTemp)
+        {
+            Console.WriteLine($"The temperature in Fahrenheit is: {convertedTemp}");
+            Console.WriteLine();
+            Console.WriteLine();
+        }
+
+        public static void ShowConvertedCelciusTemp(double convertedTemp)
+        {
+            Console.WriteLine($"The temperature in Fahrenheit is: {convertedTemp}");
+            Console.WriteLine();
+            Console.WriteLine();
+        }
     }
 }
