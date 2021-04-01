@@ -6,16 +6,42 @@ namespace StaticExcercise
     {
         static void Main(string[] args)
         {
+            string input = "";
 
-            Console.WriteLine(TempConverter.FahrenheitToCelcius(32));
+            UserInterface.Welcome();
 
-            Console.WriteLine(TempConverter.CelciusToFahrenheit(0));
+            while (input != "exit")
+            {
 
-            Console.WriteLine(TempConverter.CelciusToFahrenheit(100));
+                UserInterface.PromptUserForKeyPress();
 
-            Console.WriteLine(TempConverter.FahrenheitToCelcius(212));
+                Console.Write("What would you like to convert to: ");
+                input = Console.ReadLine().ToLower();
 
+                switch (input)
+                {
+                    case "f":
+                        var fTemp = UserInterface.PromptUserForFTemp();
+                        var convertedTemp = TempConverter.FahrenheitToCelcius(fTemp);
+                        Console.WriteLine($"The temperature in Celcius is: {convertedTemp}");
+                        Console.WriteLine();
+                        Console.WriteLine();
+                        break;
+                    case "c":
+                        var cTemp = UserInterface.PromptUserForCTemp();
+                        convertedTemp = TempConverter.CelciusToFahrenheit(cTemp);
+                        Console.WriteLine($"The temperature in Fahrenheit is: {convertedTemp}");
+                        Console.WriteLine();
+                        Console.WriteLine();
+                        break;
+                    default: 
+                        Console.WriteLine("Command not recognized...");
+                        break;
+                }
+            }
 
         }
+
+        
     }
 }
