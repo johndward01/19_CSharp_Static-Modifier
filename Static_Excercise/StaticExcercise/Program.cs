@@ -7,6 +7,9 @@ namespace StaticExcercise
         static void Main(string[] args)
         {
             string input = "";
+            double convertedTemp;
+            double fTemp;
+            double cTemp;
 
             UserInterface.Welcome();
 
@@ -21,18 +24,14 @@ namespace StaticExcercise
                 switch (input)
                 {
                     case "f":
-                        var fTemp = UserInterface.PromptUserForFTemp();
-                        var convertedTemp = TempConverter.FahrenheitToCelcius(fTemp);
-                        Console.WriteLine($"The temperature in Celcius is: {convertedTemp}");
-                        Console.WriteLine();
-                        Console.WriteLine();
+                        fTemp = UserInterface.PromptUserForFTemp();
+                        convertedTemp = TempConverter.FahrenheitToCelcius(fTemp);
+                        UserInterface.ShowConvertedCelciusTemp(convertedTemp);
                         break;
                     case "c":
-                        var cTemp = UserInterface.PromptUserForCTemp();
+                        cTemp = UserInterface.PromptUserForCTemp();
                         convertedTemp = TempConverter.CelciusToFahrenheit(cTemp);
-                        Console.WriteLine($"The temperature in Fahrenheit is: {convertedTemp}");
-                        Console.WriteLine();
-                        Console.WriteLine();
+                        UserInterface.ShowConvertedFahrenheitTemp(convertedTemp);
                         break;
                     default: 
                         Console.WriteLine("Command not recognized...");

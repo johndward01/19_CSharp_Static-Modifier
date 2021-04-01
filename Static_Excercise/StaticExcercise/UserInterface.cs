@@ -39,14 +39,14 @@ namespace StaticExcercise
 
         public static void ShowConvertedFahrenheitTemp(double convertedTemp)
         {
-            Console.WriteLine($"The temperature in Fahrenheit is: {convertedTemp}");
+            Console.WriteLine($"The temperature converted to Fahrenheit is: {convertedTemp}");
             Console.WriteLine();
             Console.WriteLine();
         }
 
         public static void ShowConvertedCelciusTemp(double convertedTemp)
         {
-            Console.WriteLine($"The temperature in Fahrenheit is: {convertedTemp}");
+            Console.WriteLine($"The temperature converted to Celcius is: {convertedTemp}");
             Console.WriteLine();
             Console.WriteLine();
         }
