@@ -2,53 +2,42 @@
 
 namespace StaticExcercise
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            string input = "";
-            double convertedTemp;
-            double fTemp;
-            double cTemp;
+            UserInterface.Welcome();
 
-            var fToC = TempConverter.FahrenheitToCelcius(32);
-            var cToF = TempConverter.CelciusToFahrenheit(0);
-            Console.WriteLine(fToC);
-            Console.WriteLine(cToF);
 
-            Console.WriteLine();
 
-            //DisplayFahrenheitConversion();
-            //AddSpaces(2);
-            //DisplayCelciusConversion();
-            //AddSpaces(2);
 
-            //string userInput;
 
-            //while (true)
-            //{
-            //    Console.WriteLine("Would you like to convert from Fahrenheit to Celcius?");
-            //    userInput = Console.ReadLine().ToLower();
+            string userInput;
 
-            //    if (userInput == "yes")
-            //    {
-            //        DisplayFahrenheitConversion();
-            //    }
-            //    else
-            //    {
-            //        DisplayCelciusConversion();
-            //    }
+            while (true)
+            {
+                Console.WriteLine("Would you like to convert from Fahrenheit to Celcius?");
+                userInput = Console.ReadLine().ToLower();
 
-            //    AddSpaces(2);
+                if (userInput == "yes")
+                {
+                    DisplayFahrenheitConversion();
+                }
+                else
+                {
+                    DisplayCelciusConversion();
+                }
 
-            //    ContinueOrExit(userInput);
+                AddSpaces(2);
 
-            //    if (userInput == "exit")
-            //    {
-            //        break;
-            //    }
+                ContinueOrExit(userInput);
 
-            //}
+                if (userInput == "exit")
+                {
+                    break;
+                }
+
+            }
         }
 
         public static string ContinueOrExit(string userInput)

@@ -4,13 +4,13 @@ using System.Text;
 
 namespace StaticExcercise
 {
-    static class UserInterface
+    public static class UserInterface
     {
         public static void Welcome() 
         {
             Console.WriteLine("TEMP CONVERTER");
+            Console.WriteLine("==============");
             Console.WriteLine();
-            Console.WriteLine("Type 'exit' to exit the program.");
             Console.WriteLine();
         }
 
