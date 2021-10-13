@@ -4,5 +4,12 @@
   "success": true,
   "projectFilePath": "C:\\Users\\johnd\\Desktop\\Repo\\19_C#_Static_Keyword\\Static_Excercise\\StaticExcercise\\StaticExcercise.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\johnd\\Desktop\\Repo\\19_C#_Static_Keyword\\Static_Excercise\\StaticExcercise\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

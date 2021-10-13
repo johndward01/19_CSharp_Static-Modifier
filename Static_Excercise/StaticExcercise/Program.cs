@@ -6,6 +6,10 @@ namespace StaticExcercise
     {
         static void Main(string[] args)
         {
+            string input = "";
+            double convertedTemp;
+            double fTemp;
+            double cTemp;
 
             var fToC = TempConverter.FahrenheitToCelcius(32);
             var cToF = TempConverter.CelciusToFahrenheit(0);
@@ -83,5 +87,7 @@ namespace StaticExcercise
                 numberOfSpaces--;
             }
         }
+
+        
     }
 }
