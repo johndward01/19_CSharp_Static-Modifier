@@ -2,17 +2,21 @@
 
 namespace Static_Demo
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
-        {            
-            Console.WriteLine("Hello World!");
+        {
+            var n1 = new NonStaticClass();
+            var n2 = new NonStaticClass();
+            n1.Balance = 200;
+            n2.Balance = 2000;
 
-            Console.WriteLine();
+            NonStaticClass.StaticBalance = 100;
 
 
-            StaticClass.StaticMethod();
-            
+            TempConverter.PrintTemp("Very cold temp");
+            TempConverter.Id = 10;
+
         }
 
     }

@@ -7,15 +7,81 @@ namespace StaticExcercise
         static void Main(string[] args)
         {
 
-            Console.WriteLine(TempConverter.FahrenheitToCelcius(32));
+            var fToC = TempConverter.FahrenheitToCelcius(32);
+            var cToF = TempConverter.CelciusToFahrenheit(0);
+            Console.WriteLine(fToC);
+            Console.WriteLine(cToF);
 
-            Console.WriteLine(TempConverter.CelciusToFahrenheit(0));
+            Console.WriteLine();
 
-            Console.WriteLine(TempConverter.CelciusToFahrenheit(100));
+            //DisplayFahrenheitConversion();
+            //AddSpaces(2);
+            //DisplayCelciusConversion();
+            //AddSpaces(2);
 
-            Console.WriteLine(TempConverter.FahrenheitToCelcius(212));
+            //string userInput;
 
+            //while (true)
+            //{
+            //    Console.WriteLine("Would you like to convert from Fahrenheit to Celcius?");
+            //    userInput = Console.ReadLine().ToLower();
 
+            //    if (userInput == "yes")
+            //    {
+            //        DisplayFahrenheitConversion();
+            //    }
+            //    else
+            //    {
+            //        DisplayCelciusConversion();
+            //    }
+
+            //    AddSpaces(2);
+
+            //    ContinueOrExit(userInput);
+
+            //    if (userInput == "exit")
+            //    {
+            //        break;
+            //    }
+
+            //}
+        }
+
+        public static string ContinueOrExit(string userInput)
+        {
+            Console.WriteLine("Would you like to continue or exit?");
+            Console.Write("Type exit to end the application: ");
+            userInput = Console.ReadLine();
+            return userInput;            
+        }
+
+        public static void DisplayFahrenheitConversion()
+        {
+            Console.Write("Please enter the degrees in Fahrenheit (whole numbers only): ");
+            var fahrenheit = Convert.ToInt32(Console.ReadLine());
+
+            AddSpaces(1);
+
+            Console.Write($"The temperature converted to degrees of Celcius: {TempConverter.FahrenheitToCelcius(fahrenheit)}");
+        }
+
+        public static void DisplayCelciusConversion()
+        {
+            Console.Write("Please enter the degrees in Celcius (whole numbers only): ");
+            var celcius = Convert.ToInt32(Console.ReadLine());
+
+            AddSpaces(1);
+
+            Console.Write($"The temperature converted to degrees in Fahrenheit: {TempConverter.CelciusToFahrenheit(celcius)}");
+        }
+
+        public static void AddSpaces(int numberOfSpaces)
+        {
+            while (numberOfSpaces != 0)
+            {
+                Console.WriteLine();
+                numberOfSpaces--;
+            }
         }
     }
 }

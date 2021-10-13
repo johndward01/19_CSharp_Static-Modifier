@@ -24,3 +24,17 @@ C:\Users\johnd\Desktop\TA_repo\19_Static_Keyword\Static_Excercise\StaticExcercis
 C:\Users\johnd\Desktop\TA_repo\19_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.dll
 C:\Users\johnd\Desktop\TA_repo\19_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.pdb
 C:\Users\johnd\Desktop\TA_repo\19_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.genruntimeconfig.cache
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\bin\Debug\netcoreapp3.1\StaticExcercise.exe
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\bin\Debug\netcoreapp3.1\StaticExcercise.deps.json
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\bin\Debug\netcoreapp3.1\StaticExcercise.runtimeconfig.json
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\bin\Debug\netcoreapp3.1\StaticExcercise.runtimeconfig.dev.json
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\bin\Debug\netcoreapp3.1\StaticExcercise.dll
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\bin\Debug\netcoreapp3.1\StaticExcercise.pdb
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.csproj.AssemblyReference.cache
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.AssemblyInfoInputs.cache
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.AssemblyInfo.cs
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.csproj.CoreCompileInputs.cache
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.dll
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.pdb
+C:\Users\johnd\Desktop\Repo\19_C#_Static_Keyword\Static_Excercise\StaticExcercise\obj\Debug\netcoreapp3.1\StaticExcercise.genruntimeconfig.cache

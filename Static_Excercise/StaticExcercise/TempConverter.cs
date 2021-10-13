@@ -4,20 +4,16 @@ using System.Text;
 
 namespace StaticExcercise
 {
-    static class TempConverter
+    public static class TempConverter
     {
-        public static double F = 0;
-        public static double C = 0;
-        public static double FahrenheitToCelcius(double fTemp)
+        public static double FahrenheitToCelcius(double fahrenheit)
         {
-            C = (fTemp - 32) / 1.8000;
-            return C;
+            return (fahrenheit - 32) / 1.8;
         }
 
-        public static double CelciusToFahrenheit(double cTemp)
+        public static double CelciusToFahrenheit(double celsius)
         {
-            F = (cTemp * (5 / 9)) + 32;
-            return F;
+            return (celsius * 9) / 5 + 32;
         }
     }
 }

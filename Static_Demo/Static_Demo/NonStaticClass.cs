@@ -4,23 +4,9 @@ using System.Text;
 
 namespace Static_Demo
 {
-    class NonStaticClass 
+    public class NonStaticClass 
     {
-        private static readonly DateTime _date;
-
-        public int Age { get; set; }
-
-        public DateTime Date { get; set; }
-
-        static NonStaticClass()
-        {
-            _date = DateTime.Now;
-        }
-
-        public static void SetDate(DateTime date)
-        {
-            var n = new NonStaticClass();
-            n.Date = date;
-        }
+        public int Balance { get; set; } // non static member
+        public static int StaticBalance { get; set; } // static member
     }
 }
